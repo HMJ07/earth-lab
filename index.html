@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Earth Lab — a living 3D globe of open data</title>
+    <meta
+      name="description"
+      content="Earthquakes, satellites, wildfires, storms and wind on an interactive 3D globe, with a time machine to replay the last 30 days. Open source, runs entirely in your browser."
+    />
+    <meta name="theme-color" content="#03050b" />
+    <meta property="og:title" content="Earth Lab — a living 3D globe of open data" />
+    <meta
+      property="og:description"
+      content="Earthquakes, satellites, natural events and wind on a 3D globe, with a 30-day time machine."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="splash" role="status">
+      <div class="splash-inner">
+        <img src="/favicon.svg" alt="" width="56" height="56" />
+        <h1>Earth Lab</h1>
+        <div class="bar"><i></i></div>
+        <p>Loading imagery…</p>
+      </div>
+    </div>
+    <noscript
+      ><p style="color: #fff; padding: 2rem">Earth Lab needs JavaScript and WebGL.</p></noscript
+    >
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

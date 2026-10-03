@@ -1,0 +1,19 @@
+name: Feature request
+description: Suggest an idea or a new data layer
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Data source (for new layers)
+      description: Link to the API or dataset. It must be free, keyless and allow browser (CORS) access.
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it useful?

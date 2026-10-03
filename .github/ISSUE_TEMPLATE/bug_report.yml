@@ -1,0 +1,39 @@
+name: Bug report
+description: Something looks wrong or does not work
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what did you see instead? Screenshots help.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Enable the Wind layer
+        2. Drag the timeline back…
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL hash
+      description: Everything after the `#` in the address bar (layers and time).
+      placeholder: '#layers=quakes,satellites&t=1789755177796'
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and OS
+      placeholder: Chrome 128 on macOS 15
+    validations:
+      required: true
+  - type: textarea
+    id: console
+    attributes:
+      label: Console output
+      description: Any errors from the browser developer console.
+      render: shell
