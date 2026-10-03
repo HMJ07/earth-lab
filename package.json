@@ -36,7 +36,7 @@
     "check": "npm run typecheck && npm run lint && npm run format:check && npm run test"
   },
   "dependencies": {
-    "satellite.js": "^6.0.2",
+    "satellite.js": "^7.1.0",
     "three": "^0.186.1"
   },
   "devDependencies": {
