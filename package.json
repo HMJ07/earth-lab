@@ -37,12 +37,12 @@
   },
   "dependencies": {
     "satellite.js": "^6.0.2",
-    "three": "^0.186.1"
+    "three": "^0.187.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.0",
     "@types/node": "^22.20.5",
-    "@types/three": "^0.186.0",
+    "@types/three": "^0.187.0",
     "eslint": "^10.12.0",
     "eslint-config-prettier": "^10.1.0",
     "globals": "^16.0.0",
